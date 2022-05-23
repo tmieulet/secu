@@ -9,7 +9,7 @@
 <xsl:variable name="scana">
         implode('<br/>',scandir('.'))
 </xsl:variable>
-<br />Scan dir 1: <xsl:value-of select="php:function('printr',  $scana )" />
+<br />Scan dir 1: <xsl:value-of select="php:function('print_r',  $scana )" />
  
 </xsl:template>
 </xsl:stylesheet>
