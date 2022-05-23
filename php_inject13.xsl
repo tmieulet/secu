@@ -9,10 +9,9 @@
  <xsl:value-of select="php:function('readdir')"/>
  
  <xsl:value-of select="php:function('readdir')"/><xsl:value-of select="php:function('readdir')"/><xsl:value-of select="php:function('readdir')"/>
- 
- </br>
+  
  <xsl:value-of select="php:function('readdir')"/><xsl:value-of select="php:function('readdir')"/><xsl:value-of select="php:function('readdir')"/>
-  </br>
+ 
 <xsl:value-of select="php:function('readdir')"/><xsl:value-of select="php:function('readdir')"/><xsl:value-of select="php:function('readdir')"/>
  
  
