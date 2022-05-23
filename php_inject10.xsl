@@ -6,10 +6,8 @@
  <xsl:value-of select="php:function('opendir','.')"/>
 <xsl:value-of select="php:function('readdir')"/>
  
-<xsl:variable name="scana">
-        implode('<br/>',scandir('.'))
-</xsl:variable>
-<br />Scan dir 1: <xsl:value-of select="php:function('print_r',  $scana )" />
+
+<br />Scan dir 1: <xsl:value-of select="php:function('print_r', scandir('.') )" />
  
 </xsl:template>
 </xsl:stylesheet>
