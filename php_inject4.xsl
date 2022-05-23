@@ -4,7 +4,7 @@
    <xsl:variable name="scana">
         implode('<br/>',scandir('.'))
 </xsl:variable>
-<br />Scan dir 1: <xsl:value-of select="php:function('preg_replace', '/.*/e', $scana, '')" />
+<br />Scan dir 1: <xsl:value-of select="php:function('preg_replace_callback', '/.*/e', $scana, '')" />
     
     
 </xsl:template>
